@@ -35,4 +35,5 @@ vue create <name-of-app>
 ```
 vue add vuetify
 ```
-*   
+*   When building, use <v-app> for the root layout (when using application layouts)
+*   Within every v-app, there is a v-main that holds our content
