@@ -1,4 +1,5 @@
 <script setup>
+import ImageGallery from "./components/ImageGallery.vue";
 import SideBar from "./components/SideBar.vue"
 </script>
 
@@ -6,7 +7,7 @@ import SideBar from "./components/SideBar.vue"
 <v-app>
   <SideBar />
   <v-main>
-    <!-- card components -->
+    <ImageGallery />
   </v-main>
 </v-app>
 </template>
